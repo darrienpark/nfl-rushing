@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Player: MyString
+  Team: MyString
+  Pos: MyString
+  Att: 1
+  Att/G: 1.5
+  Yds: 1
+  Avg: 1.5
+  Yds/G: 1.5
+  TD: 1
+  Lng: MyString
+  1st: 1
+  1st%: MyString
+  20+: 1
+  40+: 1
+  FUM: 1
+
+two:
+  Player: MyString
+  Team: MyString
+  Pos: MyString
+  Att: 1
+  Att/G: 1.5
+  Yds: 1
+  Avg: 1.5
+  Yds/G: 1.5
+  TD: 1
+  Lng: MyString
+  1st: 1
+  1st%: MyString
+  20+: 1
+  40+: 1
+  FUM: 1

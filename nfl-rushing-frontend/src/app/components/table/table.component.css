@@ -1,0 +1,164 @@
+.input-wrapper {
+  width: 600px;
+  padding: 0 20px;
+}
+
+input {
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+.form-control {
+  color: #f4b752;
+  border: none;
+  background-color: #2e3440;
+}
+
+.form-control:focus {
+  border-color: #fff;
+  box-shadow: 0 0 20px #81a1c1;
+}
+
+.sort {
+  display: none;
+}
+
+.table-label {
+  cursor: pointer;
+}
+
+.table-label:hover i {
+  display: inline;
+}
+
+.table-wrapper {
+  width: auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rushing-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.9em;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.rushing-table thead tr {
+  background-color: #2e3440;
+  color: #e5e9f0;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #f4b752;
+}
+
+.rushing-table th,
+.rushing-table td {
+  padding: 12px 15px;
+  color: #e5e9f0;
+}
+
+.rushing-table tbody tr {
+  border-bottom: 1px solid #2e3440;
+}
+
+.rushing-table tbody tr:nth-of-type(even) {
+  background-color: #3b4252;
+}
+
+.rushing-table tbody tr:last-of-type {
+  border-bottom: 2px solid #2e3440;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.8rem;
+  height: 2.8rem;
+  line-height: 2.75rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+a {
+  font-weight: bold;
+  color: #f4b752;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.my-pagination /deep/ .ngx-pagination {
+  font-weight: 500;
+  color: #d8dee9;
+}
+
+.my-pagination /deep/ .ngx-pagination .current {
+  background: #2e3440;
+  border-radius: 25px;
+}
+
+.my-pagination /deep/ .ngx-pagination a:hover {
+  border-radius: 25px;
+  background-color: #3b4252;
+}
+
+.form-select {
+  background: #2e3440;
+  color: #6c757d;
+  border: none;
+  width: 150px;
+}
+
+.form-select:focus {
+  border-color: #fff;
+  box-shadow: 0 0 20px #81a1c1;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.close-button {
+  color: white;
+  font-size: 0.8rem;
+  position: absolute;
+  right: -5px;
+  top: 9px;
+  cursor: pointer;
+}
+
+.pill-button {
+  border: 2px solid #2e3440;
+  background-color: #434c5e;
+  height: 1.8rem;
+  font-weight: bold;
+  border-radius: 25px;
+  color: #f4b752;
+  padding: 0 10px;
+}
+
+.pill-button:hover {
+  background-color: #2e3440;
+}
+
+.no-result {
+  color: #2e3440;
+  font-size: 1.5rem;
+  height: 400px;
+}
+
+.no-result i {
+  font-size: 100px;
+}

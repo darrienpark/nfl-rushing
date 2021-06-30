@@ -1,0 +1,22 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "assets/css/nord.css";
+
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  margin: auto;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: #434c5e;
+}
+
+/* Colour classes */
+.yellow {
+  color: #f4b752;
+}
+
+/* Typography classes */
+.bold {
+  font-weight: bold;
+}
