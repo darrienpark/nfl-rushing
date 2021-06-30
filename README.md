@@ -57,4 +57,5 @@ If you have any questions regarding requirements, do not hesitate to email your 
 ... TODO
 
 ### Demo
+##### Reactive search results
 ![Real-Time Search Demo](demo/real_time_search.gif)
