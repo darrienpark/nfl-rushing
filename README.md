@@ -56,12 +56,12 @@ If you have any questions regarding requirements, do not hesitate to email your 
 ### Installation and running this solution
 #### Backend Rails API
 1. cd to /nfl-rushing-backend
-2. Run: docker-compose up
+2. Run: `docker-compose up`
 
 #### Backend Rails API
 1. cd to /nfl-rushing-frontend
-2. Build: docker build -t nfl-rushing-frontend -f Dockerfile .
-3. Run: docker run --rm -it -p 4200:4200 nfl-rushing-frontend
+2. Build: `docker build -t nfl-rushing-frontend -f Dockerfile .`
+3. Run: `docker run --rm -it -p 4200:4200 nfl-rushing-frontend`
 4. Access with http://localhost:4200/
 
 ### Demo
