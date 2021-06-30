@@ -23,12 +23,8 @@ input {
   display: none;
 }
 
-.table-label {
+th {
   cursor: pointer;
-}
-
-.table-label:hover i {
-  display: inline;
 }
 
 .table-wrapper {

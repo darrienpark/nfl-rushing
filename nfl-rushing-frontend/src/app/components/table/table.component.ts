@@ -18,6 +18,7 @@ export class TableComponent implements OnInit {
   playerName!: string;
   key: string = 'Player';
   reverse: boolean = false;
+  descending: boolean = true;
   p: number = 1;
   maxPlayersPerPage = 15;
 
@@ -66,8 +67,34 @@ export class TableComponent implements OnInit {
   }
 
   sort(key: any) {
+    if (this.key === key) {
+      this.reverse = !this.reverse;
+      this.descending = !this.descending;
+    } else {
+      switch (key) {
+        case 'Att':
+        case 'Att/G':
+        case 'Yds':
+        case 'Avg':
+        case 'Yds/G':
+        case 'TD':
+        case 'Lng':
+        case '1st':
+        case '1st%':
+        case '20+':
+        case '40+':
+        case 'FUM': {
+          this.reverse = true;
+          this.descending = true;
+          break;
+        }
+        default:
+          this.reverse = false;
+          this.descending = true;
+          break;
+      }
+    }
     this.key = key;
-    this.reverse = !this.reverse;
   }
 
   exportCsv() {

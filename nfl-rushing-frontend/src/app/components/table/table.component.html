@@ -67,49 +67,124 @@
     <thead>
       <tr>
         <th scope="col" (click)="sort('Player')">
-          <span class="table-label">Player</span>
+          <div class="d-flex align-items-center">
+            <span>Player</span>
+            <mat-icon *ngIf="key === 'Player'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('Team')">
-          <span class="table-label">Team</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Team</span>
+            <mat-icon *ngIf="key === 'Team'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('Pos')">
-          <span class="table-label">Position</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Position</span>
+            <mat-icon *ngIf="key === 'Pos'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('Att')">
-          <span class="table-label">Attempts</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Attempts</span>
+            <mat-icon *ngIf="key === 'Att'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('Att/G')">
-          <span class="table-label">Attempts/Game</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Attempts/Game</span>
+            <mat-icon *ngIf="key === 'Att/G'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('Yds')">
-          <span class="table-label">Total Yards</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Total Yards</span>
+            <mat-icon *ngIf="key === 'Yds'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('Avg')">
-          <span class="table-label">Average</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Average</span>
+            <mat-icon *ngIf="key === 'Avg'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('Yds/G')">
-          <span class="table-label">Yards/Game</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Yards/Game</span>
+            <mat-icon *ngIf="key === 'Yds/G'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('TD')">
-          <span class="table-label">Touchdowns</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Touchdowns</span>
+            <mat-icon *ngIf="key === 'TD'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('Lng')">
-          <span class="table-label">Longest Rush</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Longest Rush</span>
+            <mat-icon *ngIf="key === 'Lng'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('1st')">
-          <span class="table-label">First Downs</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">First Downs</span>
+            <mat-icon *ngIf="key === '1st'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('1st%')">
-          <span class="table-label">First Down %</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">First Down %</span>
+            <mat-icon *ngIf="key === '1st%'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('20+')">
-          <span class="table-label">20+</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">20+</span>
+            <mat-icon *ngIf="key === '20+'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('40+')">
-          <span class="table-label">40+</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">40+</span>
+            <mat-icon *ngIf="key === '40+'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
         <th scope="col" (click)="sort('FUM')">
-          <span class="table-label">Fumble</span>
+          <div class="d-flex align-items-center">
+            <span class="table-label">Fumble</span>
+            <mat-icon *ngIf="key === 'FUM'">{{
+              descending ? "arrow_drop_down" : "arrow_drop_up"
+            }}</mat-icon>
+          </div>
         </th>
       </tr>
     </thead>
