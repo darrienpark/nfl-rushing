@@ -59,3 +59,18 @@ If you have any questions regarding requirements, do not hesitate to email your 
 ### Demo
 ##### Reactive search results
 ![Real-Time Search Demo](demo/real_time_search.gif)
+
+##### Sorting
+![Sorting Demo](demo/sorting.gif)
+
+##### Filtering
+![Filtering Demo](demo/filtering.gif)
+
+##### Export to CSV
+![Export Demo](demo/export_filtered.gif)
+
+##### Pagination
+![Pagination Demo](demo/data_pagination.gif)
+
+##### Wiki Articles
+![Wiki Demo](demo/wiki_links.gif)
